@@ -1,0 +1,21 @@
+.storage__object {
+    width: 59.1rem;
+    height: 39.2rem;
+
+    &:not(:last-child) {
+        margin-right: 1.6rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .storage__object {
+        width: 37.2rem;
+        height: 34.8rem;
+        &:not(:last-child) {
+            margin-right: 2.3rem;
+        }
+        img {
+            object-fit:cover;
+        }
+    }
+}

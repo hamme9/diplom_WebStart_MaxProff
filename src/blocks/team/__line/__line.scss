@@ -1,0 +1,12 @@
+.team__line {
+    width: 116.1rem;
+    height: 2.6rem;
+    margin-left: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+@media (max-width: 48em) {
+    .team__line {
+        display: none;
+    }
+}

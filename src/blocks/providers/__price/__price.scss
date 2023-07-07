@@ -1,0 +1,35 @@
+.providers__price {
+    @include font(500, 1.6rem, 119%);
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+
+    span {
+        @include font(700, 4.2rem, 117%);
+        padding-left: 0.7rem;
+        padding-right: 0.9rem;
+    }
+}
+
+.providers__price--color {
+    color: #595959;
+    span {
+        color: #FFFFFF;
+        background: #2D4872;
+        border-radius: 0.9rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .providers__price {
+        @include font(500, 3.2rem, 119%);
+        margin-left: 5.8rem;
+        margin-top: 0;
+    
+        span {
+            @include font(700, 8.4rem, 117%);
+            padding-left: 1.4rem;
+            padding-right: 1.8rem;
+            border-radius: 1.8rem;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.team__list {
+    margin-left: 2rem;
+    li {
+        @include font(400, 1.4rem, 129%);
+        list-style: disc;
+    }
+}
+
+@media (max-width: 48em) {
+    .team__list {
+        margin-left: 4.5rem;
+        li {
+            @include font(400, 2.8rem, 129%);
+        }
+    }
+}

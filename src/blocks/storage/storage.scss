@@ -1,0 +1,32 @@
+.storage {
+    padding-bottom: 5.9rem;
+    .title {
+        padding-top: 5rem;
+        max-width: 82.9rem;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.storage--back {
+    background: #F8F8F8;
+    border-right: 1rem solid #FFFFFF;
+}
+
+@media (max-width: 48em) {
+    .storage {
+        padding-bottom: 5.9rem;
+        .title {
+            padding-top: 5.6rem;
+            margin-bottom: 5rem;
+            max-width: auto;
+
+            span {
+                display: block;
+            }
+        }
+        .container {
+            padding: 0 3rem;
+        }
+    }
+}

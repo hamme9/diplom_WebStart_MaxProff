@@ -1,0 +1,9 @@
+.control__text {
+    @include font(400, 1.4rem, 114%);
+}
+
+@media (max-width: 48em) {
+    .control__text {
+        @include font(400, 2.8rem, 114%);
+    }
+}

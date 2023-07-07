@@ -1,0 +1,23 @@
+.work__text {
+    @include font(500, 1.6rem, 119%);
+    text-align: center;
+    max-height: 15rem;
+    overflow: auto;
+    
+    span {
+        display: block;
+    }
+}
+
+@media (max-width: 48em) {
+    .work__text {
+        max-width: 100%;
+        @include font(500, 3.2rem, 119%);
+        text-align: left;
+        
+        span {
+            display: inline-block;
+        }
+    }
+    
+}

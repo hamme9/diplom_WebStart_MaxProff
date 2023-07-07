@@ -1,0 +1,23 @@
+.price__header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 1.6rem 1.6rem 0 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1.4rem 3.9rem 1.4rem 2.7rem;
+
+}
+
+.price__header--color {
+    background: #E3EAEF;
+}
+
+@media (max-width: 48em) {
+    .price__header {
+        border-radius: 3.2rem 3.2rem 0 0;
+        padding: 2.8rem 7.8rem 2.48rem 5.4rem;
+    
+    }
+}

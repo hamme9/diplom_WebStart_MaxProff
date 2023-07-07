@@ -1,0 +1,23 @@
+.example-square {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    input:checked ~ label {
+        @include font(700, 1.4rem, 114%);
+        color: #171717;
+    }
+}
+
+@media (max-width: 48em) {
+    .example-square {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 6rem;
+        gap: 4rem 0;
+
+        input:checked~label {
+            @include font(700, 2.8rem, 114%);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.form-send__wrap {
+    padding: 3.8rem 0rem 4.2rem 5.5rem;
+    position: relative;
+}
+
+.form-send__wrap--color {
+    background-color: #FFFFFF;
+    border-radius: 0.7rem;
+}
+
+@media (max-width: 48em) {
+    .form-send__wrap {
+        padding: 7.2rem 0rem 5.8rem 4rem;
+    }
+}

@@ -1,0 +1,16 @@
+.masters__slide {
+    // position:absolute;
+    bottom:0;
+}
+
+@media (max-width: 48em) {
+    .masters__wrap:nth-child(1) {
+    .masters__slide:first-child {
+        .masters__container {
+            .masters__img {
+                display: none;
+            }
+        }
+    }
+}
+}

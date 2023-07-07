@@ -1,0 +1,12 @@
+.akkordeon__question {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+
+@media (max-width: 48em) {
+    .akkordeon__question {
+        margin-bottom: 1.9rem;
+    }
+    
+}

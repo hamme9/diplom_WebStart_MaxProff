@@ -1,0 +1,11 @@
+.example-slider__title {
+    @include font(700, 1.6rem, 119%);
+    margin-bottom: 0.6rem;
+}
+
+@media (max-width: 48em) {
+    .example-slider__title {
+        @include font(700, 3.2rem, 119%);
+        margin-bottom: 1.2rem;
+    }
+}

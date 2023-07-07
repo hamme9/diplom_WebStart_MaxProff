@@ -1,0 +1,15 @@
+.form-send {
+    padding-bottom: 2.4rem;
+}
+
+@media (max-width: 48em) {
+    .form-send {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(0, 78.9%);
+
+        width: 99%;
+
+    }   
+}

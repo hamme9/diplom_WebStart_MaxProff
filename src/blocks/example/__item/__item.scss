@@ -1,0 +1,16 @@
+.example__item {
+    &:not(:last-child) {
+        margin-right: 0.4rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .example__item {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+        &:nth-child(3) {
+            margin-right: 0rem;
+        }
+    }
+}

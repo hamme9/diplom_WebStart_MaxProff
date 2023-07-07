@@ -1,0 +1,32 @@
+.comments__title {
+    @include font(700, 1.8rem, 117%);
+
+    span {
+        @include font(400, 1.4rem, 114%);
+        margin-left: 0.5rem;
+    }
+}
+
+.comments__title--color {
+    color: #6CAC3D;
+    text-transform: uppercase;
+
+    span {
+        color: #171616;
+        text-transform: lowercase;
+    }
+}
+
+@media (max-width: 48em) {
+    .comments__title {
+        @include font(700, 3.6rem, 117%);
+        color: #B23533;
+        margin-bottom: 0.5rem;
+    
+        span {
+            @include font(400, 2.8rem, 114%);
+            margin-left: 0;
+        }
+    }
+    
+}

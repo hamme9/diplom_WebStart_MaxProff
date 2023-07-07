@@ -1,0 +1,11 @@
+.work__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 48em) {
+    .work__item {
+        flex-direction: row;
+    } 
+}

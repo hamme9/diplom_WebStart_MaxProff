@@ -1,0 +1,33 @@
+.consultation__button {
+    @include font(400, 1.4rem, 114%);
+    padding: 1.4rem 3.3rem 1.3rem 3.8rem;
+    border-radius: 3.1rem;
+
+    max-width: 22rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.consultation__button--style {
+    color: #FFFFFF;
+    border: 0.2rem solid #FFFFFF;
+    text-transform: uppercase;
+}
+
+@media (min-width: 48em) {
+    .consultation__button--style:hover {
+        background: #FFFFFF;
+        color: #52971F;;
+    }
+}
+
+@media (max-width: 48em) {
+    .consultation__button {
+        @include font(400, 2.8rem, 114%);
+        max-width: 100%;
+        padding: 3.3rem 26.4rem 3rem 23.8rem ;
+        border: 0.4rem solid #FFFFFF;
+        border-radius: 0.8rem;
+    }
+}

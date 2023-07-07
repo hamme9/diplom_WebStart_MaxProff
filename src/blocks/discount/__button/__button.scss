@@ -1,0 +1,36 @@
+.discount__button {
+    @include font(700, 1.8rem, 117%);
+    padding: 1.3rem 2.9rem 1.4rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    max-width: 25rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.discount__button--style {
+    color: #FFFFFF;
+    background: #6CAC3D;
+    border-radius: 0.4rem;
+}
+
+@media (min-width: 48em) {
+    .discount__button--style:hover {
+        background: #82C054;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 48em) {
+    .discount__button {
+        max-width: 100%;
+        @include font(700, 3.6rem, 117%);
+        padding: 2.6rem 23.2rem 2.8rem 22.4rem;
+        border-radius: 0.8rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}

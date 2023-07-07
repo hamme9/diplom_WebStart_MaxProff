@@ -1,0 +1,17 @@
+.footer-info__time {
+    @include font(400, 1.4rem, 114%);
+    margin-bottom: 0.5rem;
+    margin-top: 0.4rem;
+}
+
+.footer-info__time--color {
+    color: #FFFFFF;
+}
+
+@media (max-width: 48em) {
+    .footer-info__time {
+        @include font(400, 2.8rem, 114%);
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}

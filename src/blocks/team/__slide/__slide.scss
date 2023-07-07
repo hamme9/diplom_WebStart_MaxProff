@@ -1,0 +1,9 @@
+.team__slide {
+    display: flex;
+}
+
+@media (max-width: 48em) {
+    .team__slide {
+        flex-direction: column;
+    }   
+}

@@ -1,0 +1,19 @@
+.footer-contact__link {
+    @include font(400, 1.4rem, 114%);
+}
+
+.footer-contact__link--color {
+    text-decoration-line: underline;
+    color: #FFFFFF;
+
+    &:hover {
+        color: #FFFFFF;
+        text-decoration-line: underline;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer-contact__link {
+        @include font(400, 2.8rem, 114%);
+    }
+}

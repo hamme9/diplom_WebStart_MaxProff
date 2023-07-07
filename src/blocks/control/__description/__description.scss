@@ -1,0 +1,14 @@
+.control__description {
+    @include font(300, 1.8rem, 117%);
+    text-align: center;
+    margin-bottom: 5.9rem;
+    margin-left: -4rem;
+}
+
+@media (max-width: 48em) {
+    .control__description {
+        @include font(300, 3.4rem, 117%);
+        margin-bottom: 9rem;
+        margin-left: 0;
+    }
+}

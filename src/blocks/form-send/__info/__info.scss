@@ -1,0 +1,24 @@
+.form-send__info {
+    display: flex;
+    margin-bottom: 1.9rem;
+    position: absolute;
+    right: 0;
+    top: 69%;
+    padding: 1.7rem 6.7rem 1.8rem 5.5rem;
+
+    span {
+        display: block;
+    }
+}
+
+.form-send__info--style {
+    background: #F2F2F2;
+}
+
+@media (max-width: 48em) {
+    .form-send__info {
+        width: 100%;
+        top: 67.1%;
+        padding: 3rem 6.7rem 3rem 4rem;
+    }
+}

@@ -1,0 +1,9 @@
+.example-slider__wrap {
+    display: flex;
+}
+
+@media (max-width: 48em) {
+    .example-slider__wrap {
+        flex-direction: column;
+    }
+}

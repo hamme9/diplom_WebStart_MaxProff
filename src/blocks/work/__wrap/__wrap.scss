@@ -1,0 +1,7 @@
+@media (max-width: 48em) {
+    .work__wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+}

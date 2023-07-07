@@ -1,0 +1,10 @@
+.footer-info__items {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 48em) {
+    .footer-info__items {
+        margin-left: 0.6rem;
+    }
+}

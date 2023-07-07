@@ -1,0 +1,23 @@
+.price__old {
+    @include font(400, 1.4rem, 114%);
+    margin-right: 0.6rem;
+
+    span {
+        @include font(700, 1.4rem, 114%);
+    }
+}
+
+.price__old--style {
+    text-decoration-line: line-through;
+}
+
+@media (max-width: 48em) {
+    .price__old {
+        @include font(400, 2.8rem, 114%);
+        margin-right: 1.2rem;
+    
+        span {
+            @include font(700, 2.8rem, 114%);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.channel__img {
+    display: none;
+    width: 6rem;
+    height: 6rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 48em) {
+    .channel__img {
+        display: block;
+        width: 12rem;
+        height: 12rem;
+    }
+}

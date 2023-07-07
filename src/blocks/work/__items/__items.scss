@@ -1,0 +1,109 @@
+.work__items {
+    display: flex;
+    margin-bottom: 1.8rem;
+    margin-left: 1.2rem;
+
+    .work__item:nth-child(1) {
+        margin-right: 6rem;
+        .work__text {
+            margin-left: 0.8rem;
+        }
+        .work__img {
+            margin-left: -0.8rem;
+        }
+    }
+    .work__item:nth-child(2) {
+        margin-right: 9rem;
+        .work__text {
+            margin-left: -0.6rem;
+        }
+        .work__img {
+            margin-left: 0.8rem;
+        }
+    }
+    .work__item:nth-child(3) {
+        margin-right: 7.7rem;
+    }
+    .work__item:nth-child(4) {
+        margin-right: 3.5rem;
+    }
+    .work__item:nth-child(5) {
+        margin-right: 2rem;
+    }
+    .work__item:nth-child(6) {
+        margin-right: 5.5rem;
+    }
+    .work__item:nth-child(7) {
+        margin-right: 6rem;
+    }
+    .work__item:nth-child(8) {
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .work__items {
+        flex-direction: column;
+        margin-left: 0;
+
+        .work__item:nth-child(1) {
+            margin-right: 0rem;
+            margin-bottom: 11.4rem;
+            .work__text {
+                margin-left: 0;
+            }
+            .work__img {
+                margin-left: 0;
+            }
+        }
+        .work__item:nth-child(2) {
+            margin-right: 0rem;
+            margin-bottom: 11.4rem;
+            .work__text {
+                margin-top: 0rem;
+                margin-left: 1rem;
+            }
+            .work__img {
+                margin-left: 0;
+            }
+        }
+        .work__item:nth-child(3) {
+            margin-right: 0rem;
+            margin-bottom: 11.4rem;
+            .work__text {
+                margin-top: -2rem;
+                margin-left: 1rem;
+            }
+        }
+        .work__item:nth-child(4) {
+            margin-right: 0rem;
+            margin-bottom: 11.4rem;
+        }
+        .work__item:nth-child(5) {
+            margin-right: 0rem;
+            margin-bottom: 11.4rem;
+
+            .work__text {
+                max-width: 35.28rem;
+
+                span {
+                    display: inline;
+                }
+            }
+        }
+        .work__item:nth-child(6) {
+            margin-right: 0rem;
+            margin-bottom: 10.4rem;
+        }
+        .work__item:nth-child(7) {
+            margin-right: 0rem;
+            margin-bottom: 12.4rem;
+            .work__text {
+                margin-top: 3rem;
+            }
+        }
+        .work__item:nth-child(8) {
+            margin-right: 0rem;
+        }
+    }
+}

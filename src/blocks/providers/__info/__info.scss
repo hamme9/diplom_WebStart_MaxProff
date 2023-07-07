@@ -1,0 +1,19 @@
+.providers__info {
+    padding: 6rem 7rem 2.5rem 1.5rem;
+    margin-right: 4.5rem;
+    flex-shrink: 0;
+}
+
+.providers__info--back {
+    background: #FFFFFF;
+    box-shadow: 0 0 1rem rgba(215, 215, 215, 0.25);
+}
+
+@media (max-width: 48em) {
+    .providers__info {
+        width: 100%;
+        padding: 4.7rem 0.6rem 5.8rem 0rem;
+        margin-right: 3.2rem;
+    }
+    
+}

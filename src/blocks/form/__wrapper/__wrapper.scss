@@ -1,0 +1,17 @@
+.form__wrapper {
+    background: url('../img/main/back.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;    
+}
+
+@media (max-width: 48em) {
+    .form__wrapper {
+        background: url('../img/main/back-mobile.png');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+        // position: relative;    
+    }
+}

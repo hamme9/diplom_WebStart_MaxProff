@@ -1,0 +1,13 @@
+.price__img {
+    width: 5.7rem;
+    height: 5.7rem;
+    margin-right: 0.4rem;
+}
+
+@media (max-width: 48em) {
+    .price__img {
+        width: 11.4rem;
+        height: 11.4rem;
+        margin-right: 0.8rem;
+    }
+}

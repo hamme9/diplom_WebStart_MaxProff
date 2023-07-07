@@ -1,0 +1,20 @@
+.work__description {
+    @include font(300, 1.8rem, 117%);
+    max-width: 77.3rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+
+@media (max-width: 48em) {
+    .work__description {
+        @include font(300, 3.2rem, 117%);
+        max-width: 75.6rem;
+        margin-bottom: 11.5rem;
+
+        span {
+            display: block;
+        }
+    }
+    
+}

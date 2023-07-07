@@ -1,0 +1,12 @@
+.comments__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.9rem 2.5rem;
+}
+
+@media (max-width: 48em) {
+    .comments__items {
+        flex-wrap: nowrap;
+        gap: 0 0;
+    }
+}

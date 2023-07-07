@@ -1,0 +1,30 @@
+.providers {
+    padding-bottom: 6.5rem;
+    .title {
+        padding-top: 7.7rem;
+        margin-bottom: 1.8rem;
+        float: left;
+        margin-left: -0.5rem;
+    }
+    .container {
+        width: 121.5rem;;
+    }
+}
+
+@media (max-width: 48em) {
+    .providers {
+        padding-bottom: 6.5rem;
+        .title {
+            float: center;
+            padding-top: 8.2rem;
+            margin-left: -3rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0 1.8rem;
+        }
+    }
+    
+}

@@ -1,0 +1,35 @@
+.example-square__input {
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    margin: -0.1rem;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    
+
+    &:checked + .example-square__label::before {
+        // background: url('../img/main/checked.svg');
+        // background-position-x: 44%;
+        // background-position-y: 49%;
+        // background-repeat: no-repeat;
+        // background-size: 66%;
+        border: 0.2rem solid #2D4872;
+
+        background-image: radial-gradient(circle at center, #2D4872 0.4rem, transparent 0.5rem);
+    }
+}
+
+@media (max-width: 48em) {
+    .example-square__input {
+        
+    &:checked + .example-square__label::before {
+        background: #F8F8F8;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        background-repeat: no-repeat;
+        background-size: 0%;
+        border: #FFFFFF;
+    }
+    }
+}

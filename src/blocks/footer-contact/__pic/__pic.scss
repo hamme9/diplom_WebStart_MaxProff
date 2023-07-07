@@ -1,0 +1,11 @@
+.footer-contact__pic {
+    width: 1.5rem;
+    height: 1.5rem;   
+}
+
+@media (max-width: 48em) {
+    .footer-contact__pic {
+        width: 3rem;
+        height: 3rem;   
+    }
+}

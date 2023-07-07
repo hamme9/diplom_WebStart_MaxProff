@@ -1,0 +1,22 @@
+.example__label {
+    @include font(400, 1.6rem, 119%);
+    display: flex;
+    cursor: pointer;
+
+    &:before {
+        content: "";
+    }
+}
+
+.example__label--color {
+    color: #595959;
+    background: #E6E6E6;
+    border-radius: 0.4rem;
+}
+
+@media (max-width: 48em) {
+    .example__label {
+        @include font(700, 3.2rem, 119%);
+        border-radius: 0.8rem;
+    }
+}

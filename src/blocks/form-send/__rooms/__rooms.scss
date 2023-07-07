@@ -1,0 +1,14 @@
+.form-send__rooms {
+    display: flex;
+    margin-bottom: 1.8rem;
+
+    input:checked ~ label {
+        color: #2D4872;
+    }
+}
+
+@media (max-width: 48em) {
+    .form-send__rooms {
+        margin-bottom: 3.6rem;
+    }
+}

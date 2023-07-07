@@ -1,0 +1,14 @@
+.providers__description {
+    @include font(400, 1.6rem, 119%);
+    margin-bottom: 5.2rem;
+    max-width: 55rem;
+}
+
+@media (max-width: 48em) {
+    .providers__description {
+        @include font(400, 3.2rem, 119%);
+        text-align: center;
+        max-width: 70rem;
+        margin: 0 0 1rem 3.5rem;
+    }
+}

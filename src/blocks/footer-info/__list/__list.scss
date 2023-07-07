@@ -1,0 +1,38 @@
+.footer-info__list {
+    li {
+        &:not(:last-child) {
+            margin-bottom: 0.7rem;
+        }
+    }
+}
+
+.footer-info__service {
+    @include font(400, 1.3rem, 115%);
+}
+
+.footer-info__service--color {
+    color: #CBCBCB;
+}
+
+@media (min-width: 48em) {
+    .footer-info__service--color:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer-info__list {
+        li {
+            text-align: center;
+    
+            &:not(:last-child) {
+                margin-bottom: 1.4rem;
+            }
+        }
+    }
+
+    .footer-info__service {
+        @include font(400, 2.6rem, 115%);
+    }
+}

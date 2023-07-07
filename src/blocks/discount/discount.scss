@@ -1,0 +1,17 @@
+.discount {
+    padding-bottom: 5.7rem;
+    padding-top: 6.6rem;
+    .title {
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .discount {
+        padding-bottom: 8.7rem;
+        padding-top: 10rem;
+        .title {
+            padding-bottom: 5rem;
+        }
+    }
+}

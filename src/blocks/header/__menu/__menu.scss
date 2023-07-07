@@ -1,0 +1,11 @@
+.header__menu {
+    padding: 2.32rem 0rem;
+    border-top: 0.1rem solid #6CAC3D;
+    border-bottom: 0.1rem solid #6CAC3D;
+}
+
+@media (max-width: 48em) {
+    .header__menu {
+        display: none;
+    }
+}

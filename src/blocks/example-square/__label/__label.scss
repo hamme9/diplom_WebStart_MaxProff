@@ -1,0 +1,36 @@
+.example-square__label {
+    @include font(400, 1.4rem, 114%);
+    display: flex;
+    cursor: pointer;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        background: #F2F2F2;
+        border: 0.2rem solid #CCCCCC;
+        flex-shrink: 0;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+}
+
+.example-square__label--color {
+    color: #595959;
+}
+
+@media (max-width: 48em) {
+    .example-square__label {
+        @include font(400, 2.8rem, 114%);
+
+        &:before {
+            width: 3.6rem;
+            height: 3.6rem;
+            margin-right: 1.8rem;
+            border: 0.4rem solid #CCCCCC;
+        }
+    }
+}

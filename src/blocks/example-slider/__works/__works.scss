@@ -1,0 +1,24 @@
+.example-slider__works {
+    margin-left: 3.8rem;
+    ul {
+        margin-top: -0.8rem;
+        li {
+            @include font(400, 1.4rem, 129%);
+            margin-bottom: 0rem;
+            list-style: disc;
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .example-slider__works {
+        margin-left: 7.5rem;
+        ul {
+            margin-top: 0;
+            li {
+                @include font(400, 2.8rem, 129%);
+            }
+        }
+    }
+    
+}

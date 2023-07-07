@@ -1,0 +1,10 @@
+.footer-info__logo {
+    margin-right: 15rem;
+}
+
+@media (max-width: 48em) {
+    .footer-info__logo {
+        order: 3;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,128 @@
+.active {
+  display: flex;
+}
+
+.mobile-back {
+  background: rgba(32, 10, 10, 0.55);
+}
+
+.noscroll {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+.noscroll2 {
+  overflow: auto !important;
+  height: 140rem !important;
+  
+}
+
+.just-validate-error-label {
+    position: absolute;
+}
+
+
+.form-send__active {
+  border: 0.2rem solid #2D4872;
+
+  & ~ span {
+    position: absolute;
+    @include font(400, 1.4rem, 122%);
+    color: #2D4872;
+    top: 20%;
+    left: 7%;
+}
+}
+
+
+
+
+.click-for-video,
+.click-for-video2,
+.click-for-video3,
+.click-for-video4,
+.click-for-video5,
+.click-for-video6,
+.click-for-video7,
+.click-for-video8,
+.click-for-video9,
+.click-for-video10,
+.click-for-video11 {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+ 
+.youtube,
+.youtube2,
+.youtube3,
+.youtube4,
+.youtube5 {
+  width: 100%;
+  height: 29.8rem;
+}
+
+.youtube6,
+.youtube7,
+.youtube8,
+.youtube9,
+.youtube10,
+.youtube11 {
+  width: 100%;
+  height: 22.6rem;
+}
+ 
+div.youtube,
+div.youtube2,
+div.youtube3,
+div.youtube4,
+div.youtube5,
+div.youtube6,
+div.youtube7,
+div.youtube8,
+div.youtube9,
+div.youtube10,
+div.youtube11 {
+  display: none;
+}
+
+@media (max-width: 48em) {
+
+  .youtube,
+  .youtube2,
+  .youtube3,
+  .youtube4,
+  .youtube5 {
+    width: 100%;
+    height: 46.6rem;
+  }
+
+  .youtube6,
+  .youtube7,
+  .youtube8,
+  .youtube9,
+  .youtube10,
+  .youtube11 {
+    width: 100%;
+    height: 45.2rem;
+  }
+
+  .form-send__phone {
+    .just-validate-error-label {
+      margin-top: -2.3rem;
+  }
+  }
+  .just-validate-error-label {
+    @include font(400, 2rem, 114%);
+}
+
+  .form-send__active {
+    border: 0.4rem solid #2D4872;
+  
+    & ~ span {
+      position: absolute;
+      @include font(400, 2.8rem, 122%);
+      color: #2D4872;
+  }
+  }
+}

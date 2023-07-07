@@ -1,0 +1,15 @@
+.form-send__type {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+
+    input:checked ~ label {
+        color: #2D4872;
+    }
+}
+
+@media (max-width: 48em) {
+    .form-send__type {
+        margin-bottom: 2.2rem;
+    }
+}

@@ -1,0 +1,19 @@
+.form-send__line {
+    width: 40.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.form-send__line--color {
+    border: 0.05rem solid #D6D6D6;
+}
+
+@media (max-width: 48em) {
+    .form-send__line {
+        width: 74.8rem;
+        margin-bottom: 3rem;
+
+        &:nth-of-type(2n+6) {
+            margin-bottom: 5.5rem;
+        }
+    }
+}

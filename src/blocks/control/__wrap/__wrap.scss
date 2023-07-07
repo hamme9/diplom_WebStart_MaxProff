@@ -1,0 +1,9 @@
+.control__wrap {
+    display: flex;
+}
+
+@media (max-width: 48em) {
+    .control__wrap {
+        flex-direction: column-reverse;
+    }
+}

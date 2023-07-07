@@ -1,0 +1,12 @@
+.footer-contact__items {
+    display: flex;
+    align-items: center;
+    margin-right: 7rem;
+}
+
+@media (max-width: 48em) {
+    .footer-contact__items {
+        margin-right: 0;
+        margin-bottom: 4rem;
+    }
+}

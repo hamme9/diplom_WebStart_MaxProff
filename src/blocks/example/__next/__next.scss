@@ -1,0 +1,17 @@
+.example__next {
+    width: 1.4rem;
+    height: 2.7rem;
+    position: absolute;
+    z-index: 222;
+    top: 54.8%;
+    right: 5%;
+    cursor: pointer;
+}
+
+@media (max-width: 48em) {
+    .example__next {
+        width: 2.8rem;
+        height: 5.4rem;
+        top: 58.8%;
+    }
+}

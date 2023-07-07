@@ -1,0 +1,13 @@
+.form-send__wrapper {
+    &:nth-child(1){
+        margin-right: 6.3rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .form-send__wrapper {
+        &:nth-child(1){
+            margin-right: 14rem;
+        }
+    }
+}

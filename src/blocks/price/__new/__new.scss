@@ -1,0 +1,21 @@
+.price__new {
+    @include font(700, 1.6rem, 119%);
+
+    span {
+        @include font(700, 1.8rem, 117%);
+    }
+}
+
+.price__new--color {
+    color: #6CAC3D;
+}
+
+@media (max-width: 48em) {
+    .price__new {
+        @include font(700, 3.2rem, 119%);
+    
+        span {
+            @include font(700, 3.6rem, 117%);
+        }
+    }
+}

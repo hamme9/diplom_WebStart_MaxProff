@@ -1,0 +1,22 @@
+.price__item {
+    width: auto !important;
+    position: relative;
+
+    &:not(:last-child) {
+        margin-right: 2.1rem;
+    }
+}
+
+.price__item--style {
+    background: #FFFFFF;
+    border-radius: 1.6rem;
+    filter: drop-shadow(0 0 1rem rgba(147, 147, 147, 0.25));
+}
+
+@media (max-width: 48em) {
+    .price__item {
+        &:not(:last-child) {
+            margin-right: 5rem;
+        }
+    }  
+}

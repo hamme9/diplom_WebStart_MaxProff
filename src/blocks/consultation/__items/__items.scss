@@ -1,0 +1,10 @@
+.consultation__items {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 48em) {
+    .consultation__items {
+        flex-direction: column;
+    }   
+}

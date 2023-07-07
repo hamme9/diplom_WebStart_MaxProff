@@ -1,0 +1,6 @@
+.quality__description {
+    @include font(400, 1.4rem, 114%);
+    max-width: 28.5rem;
+    height: 9.6rem;
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+.providers__title {
+    @include font(400, 1.6rem, 119%);
+    text-align: right;
+    max-width: 30rem;
+    margin-right: 3.4rem;
+}
+
+@media (max-width: 48em) {
+    .providers__title {
+        @include font(400, 3.2rem, 119%);
+        text-align: center;
+        max-width: 66rem;
+        margin-right: 5.4rem;
+        margin-bottom: 4rem;
+
+        span {
+            display: block;
+        }
+    }
+    
+}

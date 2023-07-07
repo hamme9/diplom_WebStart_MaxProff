@@ -1,0 +1,10 @@
+.akkordeon__answer {
+    margin-left: 5rem;
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .akkordeon__answer {
+        margin-left: 7rem;
+    }
+}

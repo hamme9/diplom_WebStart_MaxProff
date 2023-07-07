@@ -1,0 +1,30 @@
+.masters__video {
+    position: relative;
+    width: 58.6rem;
+    height: 29.8rem;
+    margin-right: 5.7rem;
+}
+
+.masters__video--back {
+    background: linear-gradient(0deg, #555555, #555555), #FFFFFF;
+}
+
+@media (min-width: 48em) {
+    .masters__video {
+        &:hover {
+            .masters__player {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .masters__video {
+        position: relative;
+        width: 76.8rem;
+        height: 42.8rem;
+        margin-right: 0;
+        margin-bottom: 6rem;
+    }
+}

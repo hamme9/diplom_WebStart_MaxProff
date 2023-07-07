@@ -1,0 +1,16 @@
+.work__img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 2.4rem;
+    flex-shrink: 0;
+}
+
+@media (max-width: 48em) {
+    .work__img {
+        width: 9.2rem;
+        height: 9.2rem;
+        margin-bottom: 0;
+        margin-right: 2rem;
+    }
+    
+}

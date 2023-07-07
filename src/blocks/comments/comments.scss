@@ -1,0 +1,26 @@
+.comments {
+    padding-bottom: 7.2rem;
+
+    .title {
+        padding-top: 2.9rem;
+        margin-bottom: 2.9rem;
+        margin-left: -1rem;
+    }
+}
+
+.comments--back {
+    background: #F8F8F8;
+    border-right: 1.2rem solid #FFFFFF;
+}
+
+@media (max-width: 48em) {
+    .comments {
+        padding-bottom: 5.2rem;
+    
+        .title {
+            padding-top: 4rem;
+            margin-left: -1rem;
+            margin-bottom: 6.5rem;
+        }
+    }
+}

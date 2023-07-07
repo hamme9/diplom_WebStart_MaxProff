@@ -1,0 +1,37 @@
+.masters__list {
+    padding: 7.4rem 11.4rem 8.4rem 2.4rem;
+
+    li {
+        @include font(400, 1.6rem, 125%);
+        list-style: disc;
+        margin-left: 2.4rem;
+
+        span {
+            display: block;
+        }
+    }
+}
+
+.masters__list--back {
+    background: #FFFFFF;
+    box-shadow: 0 0 1rem rgba(215, 215, 215, 0.25);
+}
+
+@media (max-width: 48em) {
+    .masters__list {
+        padding: 8.4rem 11.4rem 8rem 2.4rem;
+    
+        li {
+            @include font(400, 3rem, 125%);
+            margin-left: 4rem;
+
+            &:not(:last-child) {
+                margin-bottom: 0.2rem;
+            }
+    
+            span {
+                display: block;
+            }
+        }
+    }
+}

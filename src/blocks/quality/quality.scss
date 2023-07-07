@@ -1,0 +1,13 @@
+.quality {
+
+    .title {
+        margin-bottom: 5.7rem;
+        margin-left: -2rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .quality {
+        display: none;
+    }
+}

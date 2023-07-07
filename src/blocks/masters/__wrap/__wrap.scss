@@ -1,0 +1,31 @@
+.masters__wrap {
+    align-items: flex-end;
+    .swiper-slide-active  {
+        // transform: scale(1.94); // увеличение на 20%
+        // transition: transform .2s ease;
+        width: 58.4rem !important;
+    }
+
+    .swiper-slide-prev,
+    .swiper-slide-next {
+        width: 29.6rem !important;
+    }
+}
+
+@media (max-width: 48em) {
+    .masters__wrap {
+        align-items: flex-end;
+        .swiper-slide-active  {
+            // transform: scale(1.94); // увеличение на 20%
+            // transition: transform .2s ease;
+            width: 100% !important;
+            // height: 50.2rem;
+            transition: 0s;
+        }
+    
+        .swiper-slide-prev,
+        .swiper-slide-next {
+            width: 100% !important;
+        }
+    }
+}

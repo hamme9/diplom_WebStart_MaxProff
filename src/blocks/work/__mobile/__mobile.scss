@@ -1,0 +1,14 @@
+.work__mobile {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .work__mobile {
+        display: block;
+        height: 160.8rem;
+        width: 10rem;
+        margin-right: 0rem;
+        margin-left: 5.5rem;
+        margin-top: -3rem;
+    }
+}

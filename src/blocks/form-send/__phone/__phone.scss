@@ -1,0 +1,10 @@
+.form-send__phone {
+    margin-top: -1rem;
+}
+
+@media (max-width: 48em) {
+    .form-send__phone {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,10 @@
+.masters__wrapper {
+    display: flex;
+}
+
+@media (max-width: 48em) {
+    .masters__wrapper {
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,17 @@
+.akkordeon__minus {
+    display: none;
+    width: 1.8rem;
+    height: 0.6rem;
+    margin-right: 3.2rem;
+}
+
+@media (max-width: 48em) {
+    .akkordeon__minus {
+        width: 3.6rem;
+        height: 1.2rem;
+        margin-right: 4rem;
+        margin-top: -4rem;
+        flex-shrink: 0;
+    }
+    
+}

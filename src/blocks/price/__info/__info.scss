@@ -1,0 +1,15 @@
+.price__info {
+    @include font(700, 1.8rem, 117%);
+    margin-right: 0.3rem;
+}
+
+.price__info--color {
+    color: #2D4872;
+}
+
+@media (max-width: 48em) {
+    .price__info {
+        @include font(700, 3.6rem, 117%);
+        margin-right: 1rem;
+    }
+}

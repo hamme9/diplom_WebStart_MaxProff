@@ -1,0 +1,16 @@
+.team__img {
+    width: 41.4rem;
+    height: 37.8rem;
+    margin-right: 8.5rem;
+    margin-left: 9rem;
+}
+
+@media (max-width: 48em) {
+    .team__img {
+        width: 82.8rem;
+        height: 75.6rem;
+        margin-right: 0;
+        margin-left: -3rem;
+        margin-bottom: 2rem;
+    }
+}

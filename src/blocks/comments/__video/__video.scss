@@ -1,0 +1,27 @@
+.comments__video {
+    position: relative;
+    width: 58.6rem;
+    height: 29.8rem;
+
+}
+
+.comments__video--color {
+    background: linear-gradient(0deg, #555555, #555555), #FFFFFF;
+}
+
+@media (min-width: 48em) {
+    .comments__video {
+        &:hover {
+            .comments__img {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .comments__video {
+        width: 100%;
+        height: 46.6rem;
+    }
+}

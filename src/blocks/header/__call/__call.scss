@@ -1,0 +1,11 @@
+.header__call {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .header__call {
+        display: block;
+        width: 12rem;
+        height: 8.2rem;
+    }
+}

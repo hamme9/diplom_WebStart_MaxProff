@@ -1,0 +1,23 @@
+.akkordeon {
+    padding-bottom: 5.7rem;
+    
+    .title {
+        margin-bottom: 1.9rem;
+        margin-left: -4.5rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .akkordeon {
+        padding-bottom: 11.4rem;
+        
+        .title {
+            margin-bottom: 3.9rem;
+            margin-left: -3rem;
+        }
+
+        .container {
+            padding: 0 1.8rem;
+        }
+    }
+}

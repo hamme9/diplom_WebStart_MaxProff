@@ -1,0 +1,42 @@
+.price__list {
+    li {
+        background: url('../img/price/accept.svg') no-repeat 0rem 0.5rem;
+        padding-left: 1.7rem; /* Смещаем текст вправо */ 
+        @include font(400, 1.4rem, 114%);
+
+        &:not(:last-child) {
+            margin-bottom: 0.6rem;
+        }
+    }
+
+    &:nth-of-type(2n-1) {
+        margin-bottom: 1.8rem;
+    }
+    &:nth-of-type(2n) {
+        margin-bottom: 2.6rem;
+    }
+
+    &:nth-of-type(2n) {
+        li:nth-child(3n) {
+            background: url('../img/price/accept-grey.svg') no-repeat 0rem 0.3rem;
+            color: #C4C4C4;
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .price__list {
+        li {
+            @include font(400, 2.8rem, 114%); 
+            padding-left: 3.5rem; 
+        }
+
+        &:nth-of-type(2n-1) {
+            margin-bottom: 3.7rem;
+        }
+        &:nth-of-type(2n) {
+            margin-bottom: 6rem;
+        }
+    }
+}
+

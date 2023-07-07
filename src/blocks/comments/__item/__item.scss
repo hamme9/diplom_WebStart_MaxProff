@@ -1,0 +1,10 @@
+.comments__item {
+    width: 58.6rem !important;
+}
+
+@media (max-width: 48em) {
+    .comments__item {
+        width: auto !important;
+        // padding-left: 1.5rem;
+    }
+}

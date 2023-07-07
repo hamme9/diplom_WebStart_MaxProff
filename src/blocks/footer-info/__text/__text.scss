@@ -1,0 +1,12 @@
+.footer-info__text {
+    margin-right: 16.8rem;
+    padding-top: 1.7rem;
+}
+
+@media (max-width: 48em) {
+    .footer-info__text {
+        margin-right: 0;
+        padding-top: 0;
+        margin-bottom: 5.8rem;
+    }
+}

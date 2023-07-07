@@ -1,0 +1,29 @@
+.form-send__number {
+    width: 20.3rem;
+    height: 4rem;
+    border: 0.1rem solid #CCCCCC;
+    padding-left: 1.3rem;
+    margin-right: 1.2rem;
+    @include font(400, 1.4rem, 114%);
+
+    &::placeholder {
+        @include font(400, 1.4rem, 114%);
+    }
+}
+
+@media (max-width: 48em) {
+    .form-send__number {
+        width: 95.8%;
+        height: 8rem;
+        border: 0.2rem solid #CCCCCC;
+        padding-left: 2.2rem;
+        margin-bottom: 2.4rem;
+        padding-top: 1.5rem;
+        @include font(400, 2.8rem, 114%);
+    
+        &::placeholder {
+            // color: #FFFFFF;
+            @include font(400, 2.8rem, 114%);
+        }
+    }
+}

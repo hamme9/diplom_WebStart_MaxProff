@@ -1,0 +1,20 @@
+.example-slider__text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5.8rem;
+    padding-left: 5.8rem;
+    padding-right: 8rem;
+}
+
+.example-slider__text--style {
+    background: #FFFFFF;
+    border-radius: 0 0.6rem 0.6rem 0rem;
+    filter: drop-shadow(0 0.4rem 0.1rem #DFDFDF);
+}
+
+@media (max-width: 48em) {
+    .example-slider__text {
+        padding-top: 9.5rem;
+        padding-left: 3rem;
+    }
+}

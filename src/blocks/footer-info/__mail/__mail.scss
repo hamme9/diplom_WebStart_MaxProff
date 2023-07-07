@@ -1,0 +1,17 @@
+.footer-info__mail {
+    @include font(400, 1.4rem, 114%);
+}
+
+.footer-info__mail--color {
+    color: #FFFFFF;
+
+    &:hover {
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer-info__mail {
+        @include font(400, 2.8rem, 114%);
+    }
+}

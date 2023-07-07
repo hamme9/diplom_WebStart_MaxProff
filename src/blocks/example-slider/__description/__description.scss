@@ -1,0 +1,17 @@
+.example-slider__description {
+    @include font(400, 1.6rem, 119%);
+    width: 12.4rem;
+    margin-right: 0.6rem;
+}
+
+.example-slider__description--color {
+    color: #595959;
+}
+
+@media (max-width: 48em) {
+    .example-slider__description {
+        @include font(400, 3.2rem, 119%);
+        width: 24.8rem;
+        margin-right: 1.2rem;
+    }
+}

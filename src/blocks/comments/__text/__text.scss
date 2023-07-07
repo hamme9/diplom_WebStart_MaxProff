@@ -1,0 +1,14 @@
+.comments__text {
+    padding: 1.4rem 15.5rem 1.5rem 2.5rem;
+}
+
+.comments__text--back {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    filter: drop-shadow(0 0 1rem rgba(171, 171, 171, 0.25));
+}
+
+@media (max-width: 48em) {
+    .comments__text {
+        padding: 6.3rem 2.5rem 4.5rem 0.4rem;
+    }
+}

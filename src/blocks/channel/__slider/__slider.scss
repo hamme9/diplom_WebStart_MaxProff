@@ -1,0 +1,12 @@
+// .channel__slider {
+//     padding-bottom: 55rem;
+// }
+
+@media (max-width: 48em) {
+    .channel__slider {
+        padding-bottom: 55rem;
+        .channel__slide:nth-child(1) {
+            display: none;
+        }
+    }
+}

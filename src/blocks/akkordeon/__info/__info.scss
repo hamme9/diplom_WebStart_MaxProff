@@ -1,0 +1,9 @@
+.akkordeon__info {
+    @include font(400, 1.8rem, 117%);
+}
+
+@media (max-width: 48em) {
+    .akkordeon__info {
+        @include font(400, 3.2rem, 119%);
+    }
+}

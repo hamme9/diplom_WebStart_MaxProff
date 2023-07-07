@@ -1,0 +1,12 @@
+.comments__mobile {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .comments__mobile {
+        display: block;
+        width: 3.4rem;
+        height: 3.4rem;
+        margin-right: 0.6rem;
+    }
+}

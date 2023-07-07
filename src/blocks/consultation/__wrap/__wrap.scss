@@ -1,0 +1,15 @@
+.consultation__wrap {
+    // transform: matrix(1, 0, 0, -1, 0, 0);
+    padding: 2.8rem 0 2.7rem 0;
+}
+
+.consultation__wrap--back {
+    background: linear-gradient(0deg, #6CAC3D, #6CAC3D), #2E3648;
+}
+
+@media (max-width: 48em) {
+    .consultation__wrap {
+        padding: 6.1rem 0 8rem 0;
+    }
+    
+}

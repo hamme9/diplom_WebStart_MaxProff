@@ -1,0 +1,10 @@
+.comments__location {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media (max-width: 48em) {
+    .comments__location {
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,13 @@
+.form__alarmmsg {
+    position: absolute;
+    transform: translate(15%, -200%);
+    @include font(400, 1.4rem, 114%);
+}
+
+@media (max-width: 48em) {
+    .form__alarmmsg {
+        transform: translate(20%, -200%);
+        @include font(400, 2.4rem, 114%);
+    }
+    
+}

@@ -1,0 +1,22 @@
+.footer-contact__description {
+    @include font(400, 1.4rem, 114%);
+    margin-right: 7.1rem;
+}
+
+.footer-contact__description--color {
+    color: #CBCBCB;
+}
+
+@media (max-width: 48em) {
+    .footer-contact__description {
+        @include font(400, 2.6rem, 137%);
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 5rem;
+
+        span {
+            display: block;
+        }
+    }
+    
+}

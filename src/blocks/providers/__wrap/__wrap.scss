@@ -1,0 +1,14 @@
+.providers__wrap {
+    background: url('../img/providers/back.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1; 
+}
+
+@media (max-width: 48em) {
+    .providers__wrap {
+        background: url('../img/providers/back-mobile.jpg');
+        background-repeat: no-repeat;
+    }
+}

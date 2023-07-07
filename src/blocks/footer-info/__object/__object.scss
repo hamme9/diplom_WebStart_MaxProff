@@ -1,0 +1,22 @@
+.footer-info__object {
+    display: flex;
+
+    &:not(:last-child) {
+        margin-bottom: 0.9rem;
+    }
+
+    &:not(:first-child) {
+        align-items: center;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer-info__object {
+        &:nth-child(1) {
+            margin-bottom: 3.5rem;
+        }
+        &:nth-child(2) {
+            margin-bottom: 5.3rem;
+        }
+    }
+}

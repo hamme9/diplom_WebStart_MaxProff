@@ -1,0 +1,16 @@
+.form__items {
+    display: grid;
+    grid-template-columns: repeat(2, 20rem);
+    gap: 2.6rem 2.5rem;
+    // flex-wrap: wrap;
+    // width: 43.8rem;
+    // justify-content: ;
+}
+
+@media (max-width: 48em) {
+    .form__items {
+        grid-template-columns: repeat(2, 38rem);
+        gap: 3.5rem 1.5rem;
+        padding-bottom: 40rem;
+    }
+}

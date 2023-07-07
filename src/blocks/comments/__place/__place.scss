@@ -1,0 +1,13 @@
+.comments__place {
+    @include font(400, 1.4rem, 114%);
+}
+
+@media (max-width: 48em) {
+    .comments__place {
+        @include font(400, 2.8rem, 114%);
+
+        span { 
+            display: block;
+        }
+    }
+}

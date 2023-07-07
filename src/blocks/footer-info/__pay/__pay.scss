@@ -1,0 +1,16 @@
+.footer-info__pay {
+    @include font(400, 1.3rem, 115%);
+    margin-bottom: 1.1rem;
+}
+
+.footer-info__pay--color {
+    color: #CBCBCB;
+}
+
+@media (max-width: 48em) {
+    .footer-info__pay {
+        @include font(400, 2.6rem, 115%);
+        margin-bottom: 2rem;
+        margin-left: 0.5rem;
+    }
+}

@@ -1,0 +1,34 @@
+.price__button {
+    @include font(700, 1.8rem, 117%);
+    padding: 1.3rem 2.6rem 1.4rem 2.5rem;
+    position: relative;
+    left: 49%;
+    transform: translate(-50%, 0);
+
+    max-width: 20rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.price__button--style {
+    background: #6CAC3D;
+    border-radius: 0.4rem;
+    color: #FFFFFF;
+}
+
+@media (min-width: 48em) {
+    .price__button--style:hover {
+        background: #82C054;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width: 48em) {
+    .price__button {
+        max-width: 40rem;
+        @include font(700, 3.6rem, 117%);
+        padding: 2.6rem 5.2rem 2.8rem 5rem;
+        border-radius: 0.8rem;
+    }
+}

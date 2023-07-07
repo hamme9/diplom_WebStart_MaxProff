@@ -1,0 +1,28 @@
+.header__button {
+    @include font(500, 1.6rem, 119%);
+    padding: 1.3rem 2.2rem 1.1rem 2.2rem;
+    
+    max-width: 20rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.header__button--style {
+    color: #6CAC3D;
+    border: 0.1rem solid #6CAC3D;
+    border-radius: 0.3rem;
+}
+
+@media (min-width: 48em) {
+    .header__button--style:hover {
+        color: #FFFFFF;
+        background: #82C054;
+    }
+}
+
+@media (max-width: 48em) {
+    .header__button {
+        display: none;
+    }
+}

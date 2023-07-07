@@ -1,0 +1,32 @@
+.masters {
+    padding-bottom: 9.3rem;
+    position: relative;
+    
+    .title {
+        padding-top: 3.1rem;
+        margin-bottom: 3.2rem;
+    }
+}
+
+.masters--back {
+    background: #F8F8F8;
+}
+
+@media (max-width: 48em) {
+    .masters {
+        padding-bottom: 9.3rem;
+        
+        .title {
+            padding-top: 12.3rem;
+            margin-left: -3rem;
+            margin-bottom: 8.8rem;
+
+            span {
+                display: block;
+            }
+        }
+        .container {
+            padding: 0 0.5rem 0 0;
+        }
+    }
+}

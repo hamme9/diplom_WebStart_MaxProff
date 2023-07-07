@@ -1,0 +1,11 @@
+.providers__wrapper {
+    display: flex;
+    padding-bottom: 10.2rem;
+}
+
+@media (max-width: 48em) {
+    .providers__wrapper {
+        flex-direction: column-reverse;
+        padding-bottom: 2.5rem;
+    }
+}

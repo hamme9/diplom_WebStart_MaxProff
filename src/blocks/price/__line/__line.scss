@@ -1,0 +1,19 @@
+.price__line {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.price__line--style {
+    border: 0.05rem solid #2D4872;
+}
+
+@media (max-width: 48em) {
+    .price__line {
+        width: 100%;
+        border: 0.1rem solid #2D4872;
+        position: absolute;
+        left: 0;
+        top: 39%;
+    }
+}

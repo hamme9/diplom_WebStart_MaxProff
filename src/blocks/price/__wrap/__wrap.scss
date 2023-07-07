@@ -1,0 +1,9 @@
+.price__wrap {
+    padding: 1.4rem 1.8rem 3.1rem 2.7rem;
+}
+
+@media (max-width: 48em) {
+    .price__wrap {
+        padding: 2.8rem 3.6rem 6.2rem 5rem;
+    }
+}

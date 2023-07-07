@@ -1,0 +1,12 @@
+.price__works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+@media (max-width: 48em) {
+    .price__works {
+        margin-bottom: 1.6rem;
+    }
+}

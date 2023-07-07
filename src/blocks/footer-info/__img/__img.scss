@@ -1,0 +1,14 @@
+.footer-info__img {
+    width: 12.6rem;
+    height: 4.4rem;
+    margin-bottom: 7.7rem;
+}
+
+@media (max-width: 48em) {
+    .footer-info__img {
+        width: 25.2rem;
+        height: 8.8rem;
+        margin-bottom: 7.7rem;
+        margin-left: 2.5rem;
+    }
+}

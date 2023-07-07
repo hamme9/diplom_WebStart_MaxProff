@@ -1,0 +1,11 @@
+.header__link {
+    @include font(400, 1.6rem, 119%);
+
+    &:not(:last-child) {
+        margin-right: 2.2rem;
+    }
+
+    &:hover {
+        color: #234875;
+    }
+}

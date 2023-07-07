@@ -1,0 +1,35 @@
+.control__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.3rem 0;
+
+    .control__item:not(:last-child) {
+        max-width: 19.4rem;
+        margin-right: 5.8rem;
+    }
+    .control__item:last-child {
+        max-width: 22.6rem;
+    }
+
+    .control__item:nth-child(1) {
+        .control__title {
+            margin-bottom: 3.3rem;
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .control__items {
+        flex-direction: column;
+        padding-left: 2.8rem;
+        padding-bottom: 6.5rem;
+
+        .control__item:not(:last-child) {
+            max-width: 95%;
+            margin-right: 0;
+        }
+        .control__item:last-child {
+            max-width: 95%;
+        }
+    }
+}

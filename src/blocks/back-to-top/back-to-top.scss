@@ -1,0 +1,44 @@
+.back-to-top {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 6rem;
+    right: 2.5rem;
+    z-index: 9999;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    background: #e9ebec;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    transform: rotate(-90deg);
+
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
+  
+.back-to-top:hover {
+    background: #c5c5c5;
+}
+  
+.back-to-top-show {
+    display: flex;
+}
+
+@media(max-width: 48em) {
+    .back-to-top {
+        bottom: 4rem;
+        right: 2.5rem;
+        width: 8rem;
+        height: 8rem;
+        cursor: pointer;
+    }
+  
+    .back-to-top:hover {
+        background: #e9ebec;
+    }
+}

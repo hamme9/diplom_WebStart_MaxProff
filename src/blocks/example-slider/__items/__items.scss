@@ -1,0 +1,10 @@
+.example-slider__items {
+    display: flex;
+    margin-bottom: 0.6rem;
+}
+
+@media (max-width: 48em) {
+    .example-slider__items {
+        margin-bottom: 0rem;
+    }
+}

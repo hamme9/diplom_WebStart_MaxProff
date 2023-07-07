@@ -1,0 +1,30 @@
+.form-send__square {
+    width: 8.9rem;
+    height: 2.9rem;
+    position: relative;
+
+    span {
+        position: absolute;
+        @include font(400, 1.4rem, 122%);
+        color: #CCCCCC;
+        top: 20%;
+        left: 7%;
+    }
+}
+
+.form-send__square--style {
+    background: #F2F2F2;
+}
+
+@media (max-width: 48em) {
+    .form-send__square {
+        width: 17.8rem;
+        height: 5.8rem;
+
+        span {
+            position: absolute;
+            @include font(400, 2.8rem, 122%);
+            color: #CCCCCC;
+        }
+    }
+}

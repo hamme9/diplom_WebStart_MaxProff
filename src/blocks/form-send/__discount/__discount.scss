@@ -1,0 +1,29 @@
+.form-send__discount {
+    @include font(400, 1.6rem, 119%);
+
+    span{
+        @include font(700, 1.8rem, 117%);
+    }
+
+    &:not(:last-child) {
+        margin-right: 9.3rem;
+    }
+}
+
+.form-send__discount--color {
+    color: #2D4872;
+}
+
+@media (max-width: 48em) {
+    .form-send__discount {
+        @include font(400, 3.2rem, 119%);
+    
+        span{
+            @include font(700, 3.6rem, 117%);
+        }
+    
+        &:not(:last-child) {
+            margin-right: 18.6rem;
+        }
+    }
+}

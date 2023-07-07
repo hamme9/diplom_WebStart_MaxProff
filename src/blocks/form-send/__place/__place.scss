@@ -1,0 +1,33 @@
+.form-send__place {
+    width: 100%;
+    height: 100%;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+    @include font(400, 1.4rem, 114%);
+    border: 0.2rem solid #CCCCCC;
+    border-radius: 0.3rem;
+
+    &:hover, 
+    &:focus,
+    &:active,
+    &:checked {
+        border: 0.2rem solid #2D4872;
+    }
+
+}
+
+.form-send__place--color {
+    color: #2D4872;
+}
+
+@media (max-width: 48em) {
+    .form-send__place {
+        padding-left: 5rem;
+        padding-right: 1rem;
+        @include font(400, 2.8rem, 114%);
+    
+        &::placeholder {
+            @include font(500, 2.4rem, 122%);
+        }
+    }
+}

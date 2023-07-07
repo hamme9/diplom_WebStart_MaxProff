@@ -1,0 +1,8 @@
+.quality__title {
+    @include font(700, 1.8rem, 117%);
+    margin-bottom: 3.3rem;
+
+    span {
+        display: block;
+    }
+}

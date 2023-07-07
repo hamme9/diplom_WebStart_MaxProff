@@ -1,0 +1,14 @@
+.providers__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 2.5rem;
+}
+
+@media (max-width: 48em) {
+    .providers__items {
+        gap: 5rem 0;
+        margin-bottom: 4rem;
+    }
+}

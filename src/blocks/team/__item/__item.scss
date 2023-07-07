@@ -1,0 +1,46 @@
+.team__item {
+    @include font(700, 1.8rem, 117%);
+
+    &:not(:last-child) {
+        margin-right: 4.2rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .team__item {
+        @include font(700, 3.6rem, 117%);
+
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+        &:nth-child(1) {
+            order: 1;
+            margin-right: 7.5rem;
+        }
+        &:nth-child(2) {
+            order: 2;
+            margin-right: 9.5rem;
+        }
+        &:nth-child(3) {
+            order: 3;
+        }
+        &:nth-child(4) {
+            order: 5;
+            margin-right: 7.5rem;
+        }
+        &:nth-child(5) {
+            order: 4;
+            margin-right: 7.5rem;
+        }
+        &:nth-child(6) {
+            order: 7;
+            margin-right: 7rem;
+        }
+        &:nth-child(7) {
+            order: 8;
+        }
+        &:nth-child(8) {
+            order: 6;
+        }
+    }
+}

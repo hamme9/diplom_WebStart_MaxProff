@@ -1,0 +1,11 @@
+.price__value {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 48em) {
+    .price__value {
+        margin-bottom: 3.5rem;
+    }
+}

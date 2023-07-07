@@ -1,0 +1,18 @@
+.akkordeon__line {
+    width: 96rem;
+    height: 0.1rem;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin-bottom: 1rem;
+}
+
+.akkordeon__line--back {
+    background: #C4C4C4;
+}
+
+@media (max-width: 48em) {
+    .akkordeon__line {
+        width: 65.8rem;
+        height: 0.2rem;
+        margin-bottom: 1.5rem;
+    }
+}

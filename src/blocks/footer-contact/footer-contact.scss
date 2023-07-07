@@ -1,0 +1,14 @@
+.footer-contact {
+    display: flex;
+    align-items: center;
+    padding-top: 2.6rem;
+    padding-bottom: 2.8rem;
+}
+
+@media (max-width: 48em) {
+    .footer-contact {
+        flex-direction: column;
+        padding-top: 5.5rem;
+        padding-bottom: 4rem;
+    }
+}

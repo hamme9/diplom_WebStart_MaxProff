@@ -1,0 +1,52 @@
+.akkordeon__item {
+    width: 109.8rem;
+    cursor: pointer;
+    margin-bottom: 2.3rem;
+}
+
+.akkordeon__item--active {
+    background: #F2F2F2;
+    box-shadow: 0 0 1rem rgba(215, 215, 215, 0.25);
+    padding: 1.5rem 0rem 2rem 0.8rem;
+    position: relative;
+    transition: 1s;
+    margin-top: -1.2rem;
+    margin-bottom: 0.7rem;
+
+    .akkordeon__answer {
+        display: block;
+    }
+
+    .akkordeon__question {
+        .akkordeon__text {
+            color: #6CAC3D;
+        }
+        .akkordeon__plus {
+            display: none;
+        }
+        .akkordeon__minus {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 48em) {
+    .akkordeon__item {
+        width: 76.8rem;
+        margin-bottom: 0;
+    
+        &:not(:first-child) {
+            margin-top: 4.3rem;
+        }
+        &:nth-child(5) {
+            margin-top: 3.3rem;
+        }
+    }
+
+    .akkordeon__item--active {
+        padding: 2.6rem 1rem 3rem 1.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+}

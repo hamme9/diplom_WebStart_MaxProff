@@ -1,0 +1,15 @@
+.form__title {
+    @include font(700, 6rem, 117%);
+    padding-top: 3rem;
+    margin-bottom: 3.1rem;
+    max-width: 56.3rem;
+}
+
+@media (max-width: 48em) {
+    .form__title {
+        @include font(700, 6.8rem, 118%);
+        padding-top: 8.6rem;
+        max-width: 64rem;
+        margin-bottom: 4.8rem;
+    }   
+}

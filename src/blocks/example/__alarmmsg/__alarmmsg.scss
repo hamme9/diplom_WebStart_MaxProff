@@ -1,0 +1,15 @@
+.example__alarmmsg {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    @include font(400, 1.4rem, 114%);
+}
+
+@media (max-width: 48em) {
+    .example__alarmmsg {
+        left: 50%;
+        transform: translate(-50%, 15%);
+        @include font(400, 2.4rem, 114%);
+        text-align: center;
+    }
+}

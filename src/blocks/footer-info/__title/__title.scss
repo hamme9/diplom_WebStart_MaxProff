@@ -1,0 +1,17 @@
+.footer-info__title {
+    @include font(700, 1.3rem, 115%);
+    margin-bottom: 1.5rem;
+}
+
+.footer-info__title--color {
+    color: #6CAC3D;
+    text-transform: uppercase;
+}
+
+@media (max-width: 48em) {
+    .footer-info__title {
+        @include font(700, 2.6rem, 115%);
+        margin-bottom: 3.2rem;
+        text-align: center;
+    }
+}

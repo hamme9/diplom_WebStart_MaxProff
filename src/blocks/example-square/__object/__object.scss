@@ -1,0 +1,27 @@
+.example-square__object {
+
+    &:not(:last-child) {
+        margin-right: 3.3rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .example-square__object {
+
+        &:not(:last-child) {
+            margin-right: 8.8rem;
+        }
+        &:nth-child(3) {
+            margin-right: 7rem;
+        }
+        &:nth-child(4) {
+            margin-right: 0;
+        }
+        &:nth-child(5) {
+            margin-right: 6rem;
+        }
+        &:nth-child(6) {
+            margin-right: 7rem;
+        }
+    }
+}

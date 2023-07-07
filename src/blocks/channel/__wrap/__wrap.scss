@@ -1,0 +1,12 @@
+.channel__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.9rem 0;
+}
+
+@media (max-width: 48em) {
+    .channel__wrap {
+        flex-wrap: nowrap;
+    }
+    
+}

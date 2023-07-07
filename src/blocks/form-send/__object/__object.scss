@@ -1,0 +1,10 @@
+.form-send__object {
+    display: flex;
+    margin-bottom: 0.9rem;
+}
+
+@media (max-width: 48em) {
+    .form-send__object  {
+        margin-bottom: 1.8rem;
+    }
+}

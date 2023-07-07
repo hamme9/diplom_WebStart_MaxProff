@@ -1,0 +1,11 @@
+.price__arrow {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+@media (max-width: 48em) {
+    .price__arrow {
+        width: 2.2rem;
+        height: 2.2rem;
+    }  
+}

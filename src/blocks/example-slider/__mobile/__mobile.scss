@@ -1,0 +1,12 @@
+.example-slider__mobile {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .example-slider__mobile {
+        display: block;
+        width: 76.4rem;
+        height: 48.8rem;
+        margin-right: 0;
+    }
+}

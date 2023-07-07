@@ -1,0 +1,13 @@
+.discount__title {
+    @include font(700, 3.2rem, 119%);
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+@media (max-width: 48em) {
+    .discount__title {
+        @include font(700, 6.4rem, 119%);
+        margin-bottom: 1.6rem;
+        margin-left: -3rem;
+    }
+}

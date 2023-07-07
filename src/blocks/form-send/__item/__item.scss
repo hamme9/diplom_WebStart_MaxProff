@@ -1,0 +1,12 @@
+.form-send__item {
+    display: flex;
+    margin-bottom: 11.4rem;
+    align-items: center;
+    margin-top: -0.8rem;
+}
+
+@media (max-width: 48em) {
+    .form-send__item {
+        margin-bottom: 22.8rem;
+    }
+}

@@ -1,0 +1,24 @@
+.storage__text {
+    @include font(500, 1.8rem, 117%);
+
+    max-width: 30rem;
+    max-height: 30rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    span {
+        display: block;
+    }
+}
+
+@media (max-width: 48em) {
+    .storage__text {
+        @include font(500, 3.2rem, 117%);
+        max-width: 60rem;
+        max-height: 60rem;
+        
+        span {
+            display: inline;
+        }
+    }
+}

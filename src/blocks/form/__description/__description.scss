@@ -1,0 +1,12 @@
+.form__description {
+    @include font(700, 1.8rem, 117%);
+    max-height: 5rem;
+    overflow: auto;
+}
+
+@media (max-width: 48em) {
+    .form__description {
+        max-height: 10rem;
+        @include font(700, 3.6rem, 117%); 
+    }
+}

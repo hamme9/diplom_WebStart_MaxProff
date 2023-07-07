@@ -1,0 +1,18 @@
+.work {
+    padding-bottom: 5.1rem;
+    
+    .title {
+        margin-bottom: 1.1rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .work {
+        
+        .title {
+            margin-bottom: 5.2rem;
+            margin-left: 2rem;
+        }
+    }
+    
+}

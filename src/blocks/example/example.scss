@@ -1,0 +1,22 @@
+.example {
+    padding-top: 2.75rem;
+    padding-bottom: 6rem;
+    background: #F8F8F8;
+    position: relative;
+
+    .title {
+        margin-bottom: 7.1rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .example {
+        padding-top: 13.8rem;
+        padding-bottom: 6rem;
+
+        .title {
+            margin-bottom: 5.3rem;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.header__nav {
+    margin-left: 0.35rem;
+}
+
+@media (max-width: 48em) {
+    .header__nav {
+        display: none;
+    }
+
+    
+}

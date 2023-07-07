@@ -1,0 +1,18 @@
+.channel__slide {
+
+    width: 39.4rem !important;
+
+    &:not(:nth-child(3n)) {
+        margin-right: 1.3rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .channel__slide {
+        width: 100% !important;
+        &:not(:nth-child(3n)) {
+            margin-right: 0;
+        }
+        // padding-left: 1.5rem;
+    }
+}

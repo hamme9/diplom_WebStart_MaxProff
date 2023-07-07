@@ -1,0 +1,10 @@
+.channel-mobile__slide {
+    width: 23.6rem !important;
+}
+
+@media (max-width: 48em) {
+    .channel-mobile__slide {
+        width: auto !important;
+        // padding-left: 1.5rem;
+    }
+}

@@ -1,0 +1,13 @@
+.form-send__numb {
+    &:not(:last-child) {
+        margin-right: 2.3rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .form-send__numb {
+        &:not(:last-child) {
+            margin-right: 5.1rem;
+        }
+    }
+}

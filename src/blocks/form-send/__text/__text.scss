@@ -1,0 +1,15 @@
+.form-send__text {
+    @include font(700, 1.6rem, 119%);
+    margin-bottom: 2.1rem;
+}
+
+.form-send__text--color {
+    color: #595959;
+}
+
+@media (max-width: 48em) {
+    .form-send__text {
+        @include font(700, 3.2rem, 119%);
+        margin-bottom: 4rem;
+    }
+}

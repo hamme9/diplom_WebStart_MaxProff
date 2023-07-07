@@ -1,0 +1,8 @@
+@media (max-width: 48em) {
+    .control__item {
+
+        &:not(:last-child) {
+            margin-bottom: 4.2rem;
+        }
+    }
+}

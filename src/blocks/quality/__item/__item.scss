@@ -1,0 +1,12 @@
+.quality__item {
+
+    &:nth-child(1) {
+        margin-right: 1rem;
+    }
+    &:nth-child(2) {
+        margin-right: 6rem;
+    }
+    &:nth-child(3) {
+        margin-right: 5.9rem;
+    }
+}

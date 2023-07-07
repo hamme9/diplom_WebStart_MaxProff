@@ -1,0 +1,10 @@
+.work__line {
+    width: 116.1rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 48em) {
+    .work__line {
+        display: none;
+    }   
+}

@@ -1,0 +1,21 @@
+.footer-info__button {
+    @include font(400, 1.4rem, 114%);
+}
+
+.footer-info__button--style {
+    text-decoration-line: underline;
+    color: #6CAC3D;
+}
+
+@media (min-width: 48em) {
+    .footer-info__button--style:hover {
+        color: #52971F;
+    }
+}
+
+@media (max-width: 48em) {
+    .footer-info__button {
+        @include font(400, 2.7rem, 114%);
+    }
+    
+}

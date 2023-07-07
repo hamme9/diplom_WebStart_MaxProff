@@ -1,0 +1,12 @@
+.form-send__title {
+    @include font(900, 2rem, 115%);
+    margin-bottom: 2.8rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 48em) {
+    .form-send__title {
+        @include font(900, 4.4rem, 115%);
+        margin-bottom: 5.5rem; 
+    }
+}

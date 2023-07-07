@@ -1,0 +1,13 @@
+.footer-contact__map a {
+    @include font(400, 1.4rem, 114%);
+}
+
+.footer-contact__map--color a {
+    color: #CBCBCB;
+}
+
+@media (max-width: 48em) {
+    .footer-contact__map a{
+        @include font(400, 2.8rem, 114%);
+    }
+}

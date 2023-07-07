@@ -1,0 +1,19 @@
+.control {
+    padding-bottom: 11.5rem;
+    
+    .title {
+        padding-top: 5.3rem;
+        margin-left: -4.5rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media (max-width: 48em) {
+    .control {
+
+        .title {
+            margin-left: -1rem;
+            margin-bottom: 3rem;
+        }
+    }
+}

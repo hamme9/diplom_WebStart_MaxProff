@@ -1,0 +1,9 @@
+.masters__mobile {
+    display: none;
+}
+
+@media (max-width: 48em) {
+    .masters__mobile {
+        display: block;
+    }
+}
